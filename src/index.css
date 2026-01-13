@@ -1155,3 +1155,23 @@ color: white;
 section.Toastify {
     margin-top: -100px;
 }
+.detailsbox ul
+{
+  margin: 20px auto auto 20px;
+}
+.detailsbox h5
+{
+  margin: 20px auto 10px auto;
+}
+.creditcards
+{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.creditcards img
+{
+  width: 100px;
+  height: auto;
+}
