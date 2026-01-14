@@ -23,7 +23,7 @@ function Footer() {
                  <NavHashLink to="/#about" className='navlink' lang='en'>About</NavHashLink>
                 <NavHashLink to="/#news" className='navlink' lang='en'>News</NavHashLink>
                 <Link to="/payment" className='navlink' lang='en'>Payments</Link>
-                <Link to="" className='navlink' lang='en'>Delivery</Link>
+                <Link to="/delivery" className='navlink' lang='en'>Delivery</Link>
                  <Link to="/qanda" className='navlink' lang='en'>Fqa</Link>
             </div>
             <a href="" className='navlink topbtn' lang='en' ><i class="ri-arrow-up-circle-fill"></i>Top</a>
