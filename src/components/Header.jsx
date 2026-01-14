@@ -21,12 +21,12 @@ function Header() {
             <div className="nav container">
                 <a href="#" className="logo"><img src={logo} alt="Logo" /></a>
                 <div className="navbar">
-                    <NavHashLink to="/#home" className="navlink" lang='en'>Home</NavHashLink>
-                    <NavHashLink to="/#ranking" className="navlink" lang='en'>Rankings</NavHashLink>
-                    <NavHashLink to="/#ingredients" className="navlink" lang='en'>Ingredients</NavHashLink>
-                    <NavHashLink to="/#products" className="navlink" lang='en'>Products</NavHashLink>
-                    <NavHashLink to="/#news" className="navlink" lang='en'>News</NavHashLink>
-                    <NavHashLink to="/#about" className="navlink" lang='en'>About</NavHashLink>
+                    <NavHashLink smooth to="/#home" className="navlink" lang='en'>Home</NavHashLink>
+                    <NavHashLink smooth to="/#ranking" className="navlink" lang='en'>Rankings</NavHashLink>
+                    <NavHashLink smooth to="/#ingredients" className="navlink" lang='en'>Ingredients</NavHashLink>
+                    <NavHashLink smooth to="/#products" className="navlink" lang='en'>Products</NavHashLink>
+                    <NavHashLink smooth to="/#news" className="navlink" lang='en'>News</NavHashLink>
+                    <NavHashLink smooth to="/#about" className="navlink" lang='en'>About</NavHashLink>
                 </div>
                 
                 <Link to={"/cart"}>

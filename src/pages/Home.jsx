@@ -1,4 +1,5 @@
-
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import React from 'react';
 import Header from "../components/Header";
@@ -24,6 +25,20 @@ import story from '../images/home/story.svg'
 import yakigashitext from '../images/home/yakigashitext.jpg'
 import '../index.css'
 function Home() {
+    const { hash } = useLocation();
+
+    useEffect(() => {
+        if (hash) {
+            const targetId = hash.replace('#', '');
+            const element = document.getElementById(targetId);
+
+            if (element) {
+                setTimeout(() => {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 100); 
+            }
+        }
+    }, [hash]);
     return (
         <div>
             <Header />
